@@ -1,0 +1,22 @@
+.modal {
+    position:relative;
+    z-index: 10000;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+/* Add more styles as needed */
+.pages-container.freeze {
+    pointer-events: none;
+    user-select: none;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    z-index: 5000;
+    pointerEvents: 'none';
+}
